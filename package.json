@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node ./app/index.js",
-    "test": "exit code 0"
+    "test": "exit 0"
   },
   "dependencies": {
     "body-parser": "^1.18.2",

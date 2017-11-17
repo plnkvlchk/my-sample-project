@@ -1,4 +1,4 @@
-async function getUser(req, res) {
+function getUser(req, res) {
     console.log('get user');
     return res.status(200).send({
         success: true,
@@ -6,7 +6,7 @@ async function getUser(req, res) {
     });
 }
 
-async function postUser(req, res) {
+function postUser(req, res) {
     console.log('post user');
     return res.status(200).send({
         success: true,
@@ -14,7 +14,7 @@ async function postUser(req, res) {
     });
 }
 
-async function deleteUser(req, res) {
+function deleteUser(req, res) {
     console.log('delete user');
     return res.status(200).send({
         success: true,

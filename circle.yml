@@ -14,6 +14,10 @@ dependencies:
   cache_directories:
     - ~/.cache/yarn
 
+test:
+  override:
+    - yarn test
+
 deployment:
   production:
     branch: master
